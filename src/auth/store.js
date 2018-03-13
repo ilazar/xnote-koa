@@ -10,6 +10,7 @@ export class UserStore {
   }
   
   async insert(user) {
+    //
     return this.store.insert(user);
   };
 }
